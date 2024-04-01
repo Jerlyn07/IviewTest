@@ -127,7 +127,7 @@ const App = () => {
           "Event Set Display Assoc Ind" : '',
           "Primitive Ind" : '',
           "Event Set Sequence" : '',
-          "Event Code Value" : items["Assay_Display"],
+          "Event Code Value" : '',
           "Event Code Display" : items["Assay_Display"],
           "Event Code Description" : items["Assay_Display"],
           "Event Code Definition" : items["Assay_Display"],
@@ -343,14 +343,13 @@ const App = () => {
         <input
           type="text"
           name="View"
-          required="required"
-          placeholder="Enter view name"
+          placeholder="Enter View Name"
           onChange={handleAddFormChange}
         />
         <input
           type="text"
           name="Section_Name"
-          required="required"
+          required="required"           
           placeholder="Enter Section Name"
           onChange={handleAddFormChange}
         />
@@ -358,84 +357,76 @@ const App = () => {
           type="text"
           name="Section_Display"
           required="required"
-          placeholder="Enter view name"
+          placeholder="Enter Section Display"
           onChange={handleAddFormChange}
         />
         <input
           type="text"
           name="Section_Status"
-          required="required"
-          placeholder="Enter view name"
+          placeholder="Enter Section Status"
           onChange={handleAddFormChange}
         />
         <input
           type="text"
           name="Section_Default_Open"
-          required="required"
-          placeholder="Enter view name"
+          placeholder="Enter Section Default Open"
           onChange={handleAddFormChange}
         />
         <input
           type="text"
           name="Primitive_FallOff_Hours"
-          required="required"
-          placeholder="Enter view name"
+          placeholder="Enter Primitive Fall Off Hours"
           onChange={handleAddFormChange}
         />
         <input
           type="text"
           name="Subsection_Name"
-          required="required"
-          placeholder="Enter view name"
+          placeholder="Enter Subsection Name"
           onChange={handleAddFormChange}
         />
         <input
           type="text"
           name="Subsection_Display"
-          required="required"
-          placeholder="Enter view name"
+          placeholder="Enter Subsection display"
           onChange={handleAddFormChange}
         />
         <input
           type="text"
           name="Display_Association"
-          required="required"
-          placeholder="Enter view name"
+          placeholder="Enter Display Association"
           onChange={handleAddFormChange}
         />
         <input
           type="text"
           name="Dynamic_Group"
-          required="required"
-          placeholder="Enter view name"
+          placeholder="Enter Dynamic group Name"
           onChange={handleAddFormChange}
         />
         <input
           type="text"
           name="Primitive_EventSet_Name"
           required="required"
-          placeholder="Enter view name"
+          placeholder="Enter Primitive Event Set Name"
           onChange={handleAddFormChange}
         />
         <input
           type="text"
           name="Primitive_EventSet_Display"
           required="required"
-          placeholder="Enter view name"
+          placeholder="Enter Primitive Event Set Display"
           onChange={handleAddFormChange}
         />
         <input
           type="text"
           name="Item_Status"
-          required="required"
-          placeholder="Enter view name"
+          placeholder="Enter Item Status"
           onChange={handleAddFormChange}
         />
         <input
           type="text"
           name="Assay_Display"
           required="required"
-          placeholder="Enter view name"
+          placeholder="Enter Assay Display"
           onChange={handleAddFormChange}
         />
         <button class="button" type="submit">Add</button>
