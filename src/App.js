@@ -393,7 +393,7 @@ const App = () => {
         <input
           type="text"
           name="Display_Association"
-          placeholder="Enter Display Association"
+          placeholder="Enter Display Association Values"
           onChange={handleAddFormChange}
         />
         <input
